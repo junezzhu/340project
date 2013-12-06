@@ -7,11 +7,11 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    setWindowTitle("Happy Birthday!");
+    setWindowTitle("Pirate Game!");
     setWindowIcon(QIcon(":/images/caomei.png"));
 
     WigglyWidget * wigglyWidget = new WigglyWidget;
-    wigglyWidget->setText("ÄúºÃ");
+    wigglyWidget->setText("ï¿½ï¿½ï¿½ï¿½");
     scene.addWidget(wigglyWidget);
 
     ui->graphicsView->setAlignment( Qt::AlignCenter );
